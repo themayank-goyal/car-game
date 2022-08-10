@@ -1,0 +1,47 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+ 
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.gameBoard {
+  display: flex;
+  background-color: lightgreen;
+}
+
+.score {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 10rem;
+  height: 5rem;
+  border: 2px solid green;
+
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-weight: bold;
+  padding: 2rem;
+  border-radius: 11px;
+  background-color: #777;
+}
+ 
+.gameArea {
+  width: 40vw;
+  height: 100vh;
+  background-color: #333;
+  margin-left: auto;
+  margin-right: auto;
+}
